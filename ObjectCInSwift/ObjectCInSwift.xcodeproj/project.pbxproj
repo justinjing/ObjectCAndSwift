@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FBC00591BA0845700CDBBCF /* PointerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC00581BA0845700CDBBCF /* PointerBridge.m */; };
 		1FF846C41B8303C600F937AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF846C31B8303C600F937AF /* AppDelegate.swift */; };
 		1FF846C61B8303C600F937AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF846C51B8303C600F937AF /* ViewController.swift */; };
 		1FF846C91B8303C600F937AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF846C71B8303C600F937AF /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FBC00571BA0845700CDBBCF /* PointerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerBridge.h; sourceTree = "<group>"; };
+		1FBC00581BA0845700CDBBCF /* PointerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerBridge.m; sourceTree = "<group>"; };
 		1FF846BE1B8303C600F937AF /* ObjectCInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectCInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF846C21B8303C600F937AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF846C31B8303C600F937AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				1FF846EB1B83089800F937AF /* RoundImageView.h */,
 				1FF846EC1B83089800F937AF /* RoundImageView.m */,
 				1FF846EA1B83089800F937AF /* imga.png */,
+				1FBC00571BA0845700CDBBCF /* PointerBridge.h */,
+				1FBC00581BA0845700CDBBCF /* PointerBridge.m */,
 			);
 			path = ObjectC;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBC00591BA0845700CDBBCF /* PointerBridge.m in Sources */,
 				1FF846C61B8303C600F937AF /* ViewController.swift in Sources */,
 				1FF846EE1B83089800F937AF /* RoundImageView.m in Sources */,
 				1FF846C41B8303C600F937AF /* AppDelegate.swift in Sources */,
@@ -434,6 +440,7 @@
 				1FF846DF1B8303C600F937AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FF846E01B8303C600F937AF /* Build configuration list for PBXNativeTarget "ObjectCInSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +449,7 @@
 				1FF846E21B8303C600F937AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

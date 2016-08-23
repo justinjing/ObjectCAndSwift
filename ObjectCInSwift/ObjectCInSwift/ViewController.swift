@@ -20,7 +20,26 @@ class ViewController: UIViewController {
         imageview.img.image = UIImage(named:"imga")
         imageview.center = self.view.center
         self.view.addSubview(imageview);
+        
+//        http://www.csdn.net/article/2015-09-07/2825641
     
+        let brige = PointerBridge()
+        let theInt = brige.getCountPtr()
+        let countValue = theInt.memory
+        println(countValue)
+//
+//        let newIntPtr  = 100 ;
+//        bridge.setCountPtr()
+//        print(theInt.memory)
+//        
+//        brige.setCount(1000)
+//        println(countValue)
+    
+
+        let newIntPtr = UnsafeMutablePointer<Int32>.alloc(1)
+        newIntPtr.memory = 100
+        brige.setCountPtr(newIntPtr)
+        println(theInt.memory)
     }
 
     override func didReceiveMemoryWarning() {
